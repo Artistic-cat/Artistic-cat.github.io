@@ -23,23 +23,23 @@ body{
 
 .Left_nav{
     float: left;
-    margin-top: 5vh;
-    margin-left: 5vh;
+    margin-top: 1.1em;
+    margin-left: 1.5em;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 1.2em;
 }
 
 .Left_nav1{
     float: left;
-    margin-top: 5vh;
-    margin-left: 5vh;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 1.2em;
 }
 
 nav{
     float: right;
-    margin-right: 5vh;
+    margin-right: 1.5em;
 }
 
 ul{
@@ -50,8 +50,8 @@ ul{
 
 li{
     display: inline-block;
-    margin-top: 5vh;
-    margin-left: 5vh;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
     position: relative;
 }
 
@@ -61,7 +61,7 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 1.2em;
 }
 
 nav a:hover{
@@ -72,7 +72,7 @@ nav a:hover{
 
 .Navigation{
     background: url(images/first_image.jpg);
-    height: 97vh;
+    height: 39.2em;
     /*-webkit-background-size:cover;*/
     width: 98.5%;
     background-size: cover;
@@ -93,7 +93,7 @@ nav a:hover{
 }
 
 .First_image h1{
-    font-size: 11vh;
+    font-size: 4.5em;
     color: black;
     position: relative;
     display: inline-block;
@@ -119,14 +119,13 @@ nav a:hover{
 /*About me*/
 
 h3{
-    font-size: 3.5vh;
+    font-size: 1.5em;
     text-align: center;
-    margin-top: 1em;
     
 }
 
 h5{
-    font-size: 2.5vh;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -134,7 +133,7 @@ h5{
     text-align: justify;
     background-color: #b1d28f;
     width: 100%;
-    height: 60vh;
+    min-height: 25em;
     top: 0;
     background-image: url(images/My%20dp.jpeg);
     background-repeat: no-repeat;
@@ -146,7 +145,7 @@ h5{
 
 
 .About_me h3{
-    padding-top: 5vh;
+    padding-top: 1em;
     position: relative;
 }
 
@@ -169,14 +168,14 @@ h5{
 
 .Download_resume{
     background-color: #dde8d0;
-    height: 40vh;
+    height: 15em;
     display: inline-block;
     width: 100%;
     margin-top: 1em;
 }
 
 .Download_resume h5{
-    padding-top: 5vh;
+    padding-top: 1.8em;
 }
 
 .Download_resume a{
@@ -198,13 +197,13 @@ h5{
 .Portfolio{
     margin-top: 1em;
     background-color: #b1d28f;
-    height: 85vh;
+    min-height: 34em;
     overflow: hidden;
 }
 
 .Portfolio h3{
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
     position: relative;
 }
 
@@ -235,13 +234,13 @@ h5{
 /*Contact*/
 .Contact{
     background-color: #dde8d0;
-    height:35em;
+    height:36em;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .Contact h3{
-    padding-top: 5vh;
+    padding-top: 1em;
     position: relative;
 }
 
@@ -311,11 +310,13 @@ textarea.Contact_form_text{
     align-items: center;
     margin-top: 2em;
     cursor: pointer;
+    
 }
 
 .Contact_accounts a img{
     width: 2em;
     height: 2em;
+    
 }
 
 /*Scrollbar*/
@@ -342,7 +343,7 @@ html{
     margin-left: 5%;
     background-color: #FFF;
     width: 100%;
-    height: 30em;
+    min-height: 30em;
 }
 
 .Left_nav1 a{
@@ -351,13 +352,13 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 1.2em;
     border: 2px solid;
 }
 
 .Navigation1{
     background: url(images/first_image.jpg);
-    height: 145vh;
+    height: 72em;
     /*-webkit-background-size:cover;*/
     width: 98.5%;
     background-size: cover;
@@ -368,24 +369,18 @@ html{
     
 }
 
-.White_background h3{
-    font-size: 4vh;
-    color: black;
-    position: relative;
-}
-
 .Right_nav1{
-    display: flex;
     float: right;
     position: relative;
     width: 52%;
+    display: inline-block;
 }
 
 .Toggle_btn{
     float: right;
     margin-top: 0;
     margin-left: 1.2em;
-    margin-right: 1vh;
+    margin-right: 0.1em;
     border: 0;
     outline: none;
     position: relative;
@@ -394,7 +389,7 @@ html{
     padding: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
@@ -412,15 +407,15 @@ a{
 
 .White_background{
     width: 100%;
-    height: 50em;
+    min-height: 35em;
     background: #FFF;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .box{
-    width: 350px;
-    height: 400px;
+    
+    width: 20em;
+    height: 26em;
     background-color: #b1d28f;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -429,7 +424,7 @@ a{
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 20px 10px;
+    margin: 0px 10px;
 }
 .model{
     height:200px;
@@ -459,4 +454,10 @@ a{
     font-size: 20px;
 }
 
+@media screen and (max-width:550px){
+    body{
+        font-size: 12px;
+    }
+    
+}
 

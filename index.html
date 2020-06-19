@@ -31,38 +31,39 @@
         </div>
         <div class="Download_resume">
             <h5>I believe skills are easy to develop as long as it’s out of interest.<br><br>Want to know me better?</h5>
-            <a href="images/resume_green.pdf" download="Sristi's Resume">DOWNLOAD RESUME</a>
+            <a href="images/Final%20Resume.pdf" download="Sristi's Resume">DOWNLOAD RESUME</a>
         </div>
-        <!--
-        <div class="Expertise">
-            <h3>EXPERTISE</h3>
-            <h5>A little about why I do what I do and why I'm good at it</h5>
-        </div>
-        -->
         <div class="Portfolio" id="Portfolio">
             <h3>PORTFOLIO</h3>
             <h5>Here you can see a few samples/ projects that I've made!</h5>
             <div class="Port_images">
-                <a href="cse.html"><img src="images/c1.jpg"></a>
-                <a href="elec.html"><img src="images/e1.jpg"></a>
+                <a href="computers.html"><img src="images/c1.jpg"></a>
+                <a href="electrical.html"><img src="images/e1.jpg"></a>
                 <a href="https://www.instagram.com/teg_theeverythinggirl/"><img src="images/g1.jpg"></a>
             </div>
         </div>
         <div class="Contact" id="Contact">
             <h3>CONTACT</h3>
             <h5>Thank you for visiting!</h5>
-            <form class="Contact_form" action="for_contact_form.php" method="post">
-                <input type="text" name="Name" class="Contact_form_text" placeholder="Name">
-                <input type="email" name="Email ID" class="Contact_form_text" placeholder="Email ID">
-                <textarea class="Contact_form_text" name="Message" placeholder="Message"></textarea>
-                <input type="submit" class="Contact_form_text1" value="SUBMIT">
+            <form class="gform Contact_form" action="https://script.google.com/macros/s/AKfycbyFdYeSbJKdsc6E8bCv55KbIcar1XDQcAUdDyXPEso3LoqEOeqT/exec" method="POST">
+                <div class="Contact_form_inputs">
+                    <input type="text" name="name" class="Contact_form_text" placeholder="Name">
+                    <input type="email" name="email" class="Contact_form_text" placeholder="Email ID">
+                    <textarea class="Contact_form_text" name="message" placeholder="Message"></textarea>
+                    <input type="submit" class="Contact_form_text1" value="SUBMIT">
+                </div>
+                <div style="display:none" class="thankyou_message">
+                     <h2>
+                        Thank you!
+                     </h2>
+                </div>
             </form>
             <div class="Contact_accounts">
                 <a href="https://github.com/Artistic-cat"><img src="images/github_logo.png"></a>
                 <a href="https://www.linkedin.com/in/sristi/"><img src="images/linkedin_logo.png"></a>
             </div>
         </div>
-        
+        <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     </body>
 </html>
     
